@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <!-- header -->
+        <div class="header">
+            <div class="grid wide">
+                <div class="header__menu-bar">
+                    <div class="header__logo">
+                        <a href="" class="header__logo-link">
+                            <img src="./assets/img/logo.png" alt="logo" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="header__nav hide-on-tablet">
+                        <ul class="header__nav-menu">
+                            <li class="header__nav-menu-item active">
+                                <a href="" class="header__nav-menu-link text-active">Homepage</a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="" class="header__nav-menu-link">Category</a>
+                                <i class="nav-menu-icon fa-solid fa-angle-down"></i>
+                                <ul class="header__sub-nav">
+                                    <li class="header__sub-item">
+                                        <a href="" class="header__sub-link">Categories</a>
+                                    </li>
+                                    <li class="header__sub-item">
+                                        <a href="" class="header__sub-link">Anime Details</a>
+                                    </li>
+                                    <li class="header__sub-item">
+                                        <a href="" class="header__sub-link">Anime Watching</a>
+                                    </li>
+                                    <li class="header__sub-item">
+                                        <a href="" class="header__sub-link">Blog Details</a>
+                                    </li>
+                                    <li class="header__sub-item">
+                                        <a href="" class="header__sub-link">Sign Up</a>
+                                    </li>
+                                    <li class="header__sub-item">
+                                        <a href="" class="header__sub-link">Login</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="" class="header__nav-menu-link">Our Blog</a>
+                            </li>
+                            <li class="header__nav-menu-item">
+                                <a href="" class="header__nav-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__right">
+                        <a href="" class="header__right-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <a href="" class="header__right-user">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header__menu-wrap">
+                    <label for="menu-nav-input" class="header__menu-wrap-btn">
+                        <label for="menu-nav-input" href="" class="header__menu-text">MENU</label>
+                        <span class="header__menu-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- checkbox -->
+        <input type="checkbox" hidden class="input" id="menu-nav-input">
+
+        <!-- overlay -->
+        <label for="menu-nav-input" class="overlay"></label>
+
+        <!-- menu on mobile -->
+        <label for="menu-nav-input" class="menu-nav">
+            <label for="menu-nav-input" class="menu-symbol">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a class="menu-link">Homepage</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link">Categories</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link">Our blog</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link">Contact</a>
+                </li>
+            </ul>
+        </label>
+
+        <!-- CONTAINER -->
+        <div class="container">
+            <!-- SLIDER -->
+            <div class="slider">
+                <div class="grid wide">
+                    <div class="slider__detail">
+                        <div class="slider__background" style="background-image: url(./assets/img/fsn-ubw.jpg)">
+                            <div class="row">
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="slider__info">
+                                        <div class="slider__type">
+                                            <span class="slider__type-name">Adventure</span>
+                                        </div>
+                                        <h2 class="slider__tittle">Fate / Stay Night: Unlimited Blade Works</h2>
+                                        <p class="slider__des">There are still 14 people divided into 7 factions fighting for the Holy Grail. But this time our archers turned upside down, our trump card is even crazier in that we can use some NP.</p>
+                                        <div class="slider__btn">
+                                            <a href="" class="slider__btn-text">Watch now</a>
+                                            <i class="btn-icon fa-solid fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="slider__slide-btn">
+                            <i class="slide-btn-icon fa-solid fa-angle-up"></i>
+                        </div>
+
+                        <div class="slider__slide-btn slide-right">
+                            <i class="slide-btn-icon slide-right fa-solid fa-angle-up"></i>
+                        </div>
+
+                        <div class="dot">
+                            <span class="dot-btn dot-active"></span>
+                            <span class="dot-btn"></span>
+                            <span class="dot-btn"></span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="content">
+                <div class="grid wide">
+                    <div class="row">
+                        <!-- trending -->
+                        <div class="space col l-8 m-12 c-12">
+
+                            <!-- content list -->
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <div class="content__list">
+                                        <div class="content__trend">
+                                            <div class="content__tittle">
+                                                <h2 class="content__tittle-name">Trending now</h2>
+                                                <div class="content__tittle-more">
+                                                    <span class="content__tittle-act">view all</span>
+                                                    <i class="content-icon fa-solid fa-arrow-right-long"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- film info -->
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/movie1.jpg)">
+
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Boruto: Naruto Next Generations</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/code-geass.jpg)">
+
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Code Geass</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/Ensemble_Stars.jpg)">
+
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Ensemble Stars</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/overlord.jpg)">
+
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Overlord</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/fullmetal.jpg)">
+
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fullmetal Alchemist</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/INVADED.jpg)">
+
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">ID: INVADED</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- popular shows -->
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <div class="content__list">
+                                        <div class="content__trend">
+                                            <div class="content__tittle">
+                                                <h2 class="content__tittle-name">Popular shows</h2>
+                                                <div class="content__tittle-more">
+                                                    <span class="content__tittle-act">view all</span>
+                                                    <i class="content-icon fa-solid fa-arrow-right-long"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- film info -->
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/camelot1.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 1 - Wandering; Agateram</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/camelot2.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 2 - Paladin; Agateram</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/Fzero.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate: Zero</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/youkoso.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/tateno.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Tate no Yuusha no Nariagari</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/DAL.png)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Date A Live</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- recently shows -->
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <div class="content__list">
+                                        <div class="content__trend">
+                                            <div class="content__tittle">
+                                                <h2 class="content__tittle-name">Recently added shows</h2>
+                                                <div class="content__tittle-more">
+                                                    <span class="content__tittle-act">view all</span>
+                                                    <i class="content-icon fa-solid fa-arrow-right-long"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- film info -->
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/heavenfeel1.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/stay night: Heaven's Feel I. Presage Flower (2017)</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/heavenfeel2.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/Stay Night: Heaven's Feel - II. Lost Butterfly</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/heavenfeel3.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/Stay Night: Heaven's Feel - III. Spring Song</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/fgo-solomon.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/Grand Order: Final Singularity - Grand Temple of Time: Solomon</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/konosuba.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Kono subarashii sekai ni shukufuku o!: Kurenai densetsu</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/apo.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Fate/Apocrypha</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- live action -->
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <div class="content__list">
+                                        <div class="content__trend">
+                                            <div class="content__tittle">
+                                                <h2 class="content__tittle-name">Live action</h2>
+                                                <div class="content__tittle-more">
+                                                    <span class="content__tittle-act">view all</span>
+                                                    <i class="content-icon fa-solid fa-arrow-right-long"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <!-- film info -->
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/gintama-la.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Gintama</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/kakegurui.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Kakegurui</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/decade.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Kamen Rider Decade</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/decade2.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Kamen Rider Decade: All Rider Vs Dai-Shocker</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/yourlie.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Your Lie In April</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col l-4 m-6 c-12">
+                                                <div class="content__item">
+                                                    <div class="content__item-img" style="background-image: url(./assets/img/tabetai.jpg)">
+        
+                                                    </div>
+                                                    <ul class="content__item-type">
+                                                        <li class="type-btn">
+                                                            <span class="type">Action</span>
+                                                        </li>
+                                                        <li class="type-btn">
+                                                            <span class="type">Movie</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content__item-tittle">
+                                                        <a href="" class="content__item-name">Kimi no Suizou wo Tabetai</a>
+                                                    </div>
+                                                    <div class="content__ep">18/18</div>
+                                                    <div class="content__cmt">
+                                                        <i class="fa-solid fa-comments"></i>
+                                                        47
+                                                    </div>
+                                                    <div class="content__view">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                        5700
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <!-- top view -->
+                            <div class="row">
+                                <div class="col l-12 m-8 c-12">
+                                    <div class="top-view">
+                                        <div class="top-view__header">
+                                            <div class="top-view__tittle">
+                                                <h2 class="top-view__tittle-name">Top views</h2>
+                                                <ul class="top-view__list">
+                                                    <li class="top-view__info">
+                                                        <a href="" class="top-view__name choose">Day</a>
+                                                        <a href="" class="top-view__name">Week</a>
+                                                        <a href="" class="top-view__name">Month</a>
+                                                        <a href="" class="top-view__name">Year</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l-12 m-12 c-12">
+                                                    <div class="top-view__item">
+                                                        <div class="top-view__item-img" style="background-image: url(./assets/img/heavenfeel1.jpg)">
+            
+                                                        </div>
+                                                        <div class="top-view__item-tittle">
+                                                            <a href="" class="top-view__item-name">Fate/stay night: Heaven's Feel I. Presage Flower</a>
+                                                        </div>
+                                                        <div class="top-view__ep">18/18</div>
+                                                        <div class="top-view__view">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                            5700
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l-12 m-12 c-12">
+                                                    <div class="top-view__item">
+                                                        <div class="top-view__item-img" style="background-image: url(./assets/img/heavenfeel2.jpg)">
+            
+                                                        </div>
+                                                        <div class="top-view__item-tittle">
+                                                            <a href="" class="top-view__item-name">Fate/Stay Night: Heaven's Feel - II. Lost Butterfly</a>
+                                                        </div>
+                                                        <div class="top-view__ep">18/18</div>
+                                                        <div class="top-view__view">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                            5700
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l-12 m-12 c-12">
+                                                    <div class="top-view__item">
+                                                        <div class="top-view__item-img" style="background-image: url(./assets/img/heavenfeel3.jpg)">
+            
+                                                        </div>
+                                                        <div class="top-view__item-tittle">
+                                                            <a href="" class="top-view__item-name">Fate/Stay Night: Heaven's Feel - III. Spring Song</a>
+                                                        </div>
+                                                        <div class="top-view__ep">18/18</div>
+                                                        <div class="top-view__view">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                            5700
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l-12 m-12 c-12">
+                                                    <div class="top-view__item">
+                                                        <div class="top-view__item-img" style="background-image: url(./assets/img/camelot2.jpg)">
+            
+                                                        </div>
+                                                        <div class="top-view__item-tittle">
+                                                            <a href="" class="top-view__item-name">Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 2 - Paladin; Agateram</a>
+                                                        </div>
+                                                        <div class="top-view__ep">18/18</div>
+                                                        <div class="top-view__view">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                            5700
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l-12 m-12 c-12">
+                                                    <div class="top-view__item">
+                                                        <div class="top-view__item-img" style="background-image: url(./assets/img/akame.jpg)">
+            
+                                                        </div>
+                                                        <div class="top-view__item-tittle">
+                                                            <a href="" class="top-view__item-name">Akame Ga Kill</a>
+                                                        </div>
+                                                        <div class="top-view__ep">18/18</div>
+                                                        <div class="top-view__view">
+                                                            <i class="fa-solid fa-eye"></i>
+                                                            5700
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- new cmt -->
+                            <div class="row">
+                                <div class="col l-12 m-8 c-12">
+                                    <div class="new-cmt">
+                                        <div class="new-cmt__header">
+                                            <div class="new-cmt__tittle">
+                                                <h2 class="new-cmt__tittle-name">New comment</h2>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l-12 m-12 c-12">
+                                                    <div class="new-cmt__item">
+                                                        <div class="new-cmt__des">
+                                                            <div class="new-cmt__img" style="background-image: url(./assets/img/kaleidmovie.jpg)">
+                                                                
+                                                            </div>
+                                                            <div class="new-cmt__info">
+                                                                <ul class="new-cmt__type">
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Action</span>
+                                                                    </li>
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Movie</span>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="new-cmt__info-name">Fate/kaleid liner Purizuma Iriya: Sekka no chikai</div>
+                                                                <div class="new-cmt__info-view">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    57000 Viewes
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="new-cmt__item">
+                                                        <div class="new-cmt__des">
+                                                            <div class="new-cmt__img" style="background-image: url(./assets/img/maquia.jpg)">
+                                                                
+                                                            </div>
+                                                            <div class="new-cmt__info">
+                                                                <ul class="new-cmt__type">
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Action</span>
+                                                                    </li>
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Movie</span>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="new-cmt__info-name">Sayonara no asa ni yakusoku no hana o kazarô</div>
+                                                                <div class="new-cmt__info-view">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    57000 Viewes
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="new-cmt__item">
+                                                        <div class="new-cmt__des">
+                                                            <div class="new-cmt__img" style="background-image: url(./assets/img/SAO.jpg)">
+                                                                
+                                                            </div>
+                                                            <div class="new-cmt__info">
+                                                                <ul class="new-cmt__type">
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Action</span>
+                                                                    </li>
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Movie</span>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="new-cmt__info-name">Sword Art Online the Movie: Ordinal Scale</div>
+                                                                <div class="new-cmt__info-view">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    57000 Viewes
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="new-cmt__item">
+                                                        <div class="new-cmt__des">
+                                                            <div class="new-cmt__img" style="background-image: url(./assets/img/heloworld.jpg)">
+                                                                
+                                                            </div>
+                                                            <div class="new-cmt__info">
+                                                                <ul class="new-cmt__type">
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Action</span>
+                                                                    </li>
+                                                                    <li class="new-cmt__type-btn">
+                                                                        <span class="new-cmt__type-btn-text">Movie</span>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="new-cmt__info-name">Hello World</div>
+                                                                <div class="new-cmt__info-view">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    57000 Viewes
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="footer__container">
+                    <div class="row">
+                        <div class="col l-3 m-12 c-12">
+                            <div class="footer__logo">
+                                <a href="" class="footer__logo-link">
+                                    <img src="./assets/img/logo.png" alt="logo" class="footer__logo-img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Homepage</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Categories</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Our Blog</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-3 m-12 c-12">
+                            <span class="footer__end">
+                                Copyright ©2022 All rights reserved | This template is made with the dark side by
+                                <a href="">DarthVader2</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-up">
+                <a href="#" class="page-up-btn">
+                    <i class="up-icon fa-solid fa-angle-up"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
