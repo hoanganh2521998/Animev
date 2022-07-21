@@ -477,7 +477,6 @@ html {
 
 /* film info */
 .content__item {
-    position: relative;
     margin-bottom: 20px;
     border-radius: 4px;
     transition: 0.3s;
@@ -488,6 +487,7 @@ html {
 }
 
 .content__item-img {
+    position: relative;
     padding-top: 150%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -512,7 +512,7 @@ html {
 .content__cmt {
     position: absolute;
     font-size: 1.2rem;
-    top: 270px;
+    bottom: 10px;
     left: 12px;
     background: var(--menu-color);
     color: var(--white-color);
@@ -524,7 +524,7 @@ html {
 .content__view {
     position: absolute;
     font-size: 1.2rem;
-    top: 270px;
+    bottom: 10px;
     right: 12px;
     background: var(--menu-color);
     color: var(--white-color);
