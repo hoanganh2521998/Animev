@@ -421,6 +421,10 @@ html {
     padding-bottom: 40px;
 }
 
+.content__list {
+    margin-bottom: 28px;
+}
+
 /* content trending */
 .content__trend {
     margin-bottom: 20px;
@@ -508,7 +512,7 @@ html {
 .content__cmt {
     position: absolute;
     font-size: 1.2rem;
-    bottom: 112px;
+    top: 270px;
     left: 12px;
     background: var(--menu-color);
     color: var(--white-color);
@@ -520,7 +524,7 @@ html {
 .content__view {
     position: absolute;
     font-size: 1.2rem;
-    bottom: 112px;
+    top: 270px;
     right: 12px;
     background: var(--menu-color);
     color: var(--white-color);

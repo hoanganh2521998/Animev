@@ -3,6 +3,7 @@
     .hide-on-tablet {
         display: none !important;
     }
+    
     .footer__logo {
         display: flex;
         justify-content: center;
@@ -23,7 +24,12 @@
 
 /* tablet */
 @media (max-width: 1023px) and (min-width: 740px) {
-
+    .content__cmt {
+        top: 436px !important;
+    }
+    .content__view {
+        top: 436px !important;
+    }
 }
 
 /* mobile */
@@ -55,6 +61,12 @@
     }
     .content__item-img {
         padding-top: 60% !important;
+    }
+    .content__cmt {
+        top: 190px !important;
+    }
+    .content__view {
+        top: 190px !important;
     }
     .footer {
         padding: 60px 20px !important;
